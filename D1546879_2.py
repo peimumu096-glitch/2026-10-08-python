@@ -19,6 +19,6 @@ else:
     else:
         a3=0
 
-    print('OR=',a1)
-    print('AND=',a2)
-    print('XOR=',a3)
+    print(f'OR={a1}')
+    print(f'AND={a2}')
+    print(f'XOR={a3}')

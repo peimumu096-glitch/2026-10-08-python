@@ -12,12 +12,12 @@ if n>=0 and n<=15:
 else:
     print('輸入錯誤')
 
-print('二進制=',t1,t2,t3,t4)
+print(f'二進制={t1}{t2}{t3}{t4}')
 
 if n>=0 and n<=15:
     e=n//8
     e1=n%8
-    print('八進制=',e,e1)
+    print(f'八進制={e}{e1}')
 else:
     print('輸入錯誤')
     
@@ -35,4 +35,4 @@ elif n==14:
     s="E"
 elif n==15:
     s="F"
-print('十六進制=',s)
+print(f'十六進制={s}')
